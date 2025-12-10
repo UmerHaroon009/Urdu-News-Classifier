@@ -1,0 +1,6 @@
+Flask
+gunicorn
+pandas
+numpy
+google-cloud-vision
+LughaatNLP==1.3.1
