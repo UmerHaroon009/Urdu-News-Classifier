@@ -16,7 +16,7 @@ from google.cloud import vision
 # =========================================================
 
 # ❶ Path to your CSV (adjust if different)
-DATA_PATH = r"D:\Umer Notes\7th SEM\ML\PROJECT\combined_articles.csv"
+DATA_PATH = "combined_articles.csv"
 
 if "GOOGLE_APPLICATION_CREDENTIALS" not in os.environ:
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"D:\Umer Notes\7th SEM\ML\PROJECT\KEYS\urdu-ocr-480714-fc60bb78cd98.json"
@@ -1339,3 +1339,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
